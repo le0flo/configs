@@ -1,0 +1,81 @@
+{
+	"custom/power": {
+        "format" : "󰣇",
+		
+		"tooltip": false
+    },
+
+	"hyprland/workspaces": {
+  		"format": "{icon}",
+  		"on-click": "activate",
+  		
+		"format-icons": {
+    		"urgent": "",
+    		"active": "",
+    		"default": ""
+  		},
+		
+  		"persistent-workspaces": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": [],
+			"6": [],
+			"7": [],
+			"8": [],
+			"9": []
+		},
+		"sort-by-number": true
+	},		   
+ 	
+	"tray": {
+		"icon-size": 20,
+		"spacing": 10
+	},
+
+	"network": {
+        "format-wifi": "{icon}     {signalStrength}%",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "format-disconnected": "Disconnected ⚠",
+		
+		"format-icons": {
+			"wifi": ""
+		},
+
+    	"tooltip": false
+	},
+    
+	"pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-bluetooth-muted": "󰟎 {icon}",
+        "format-muted": "󰟎",
+        
+		"format-icons": {
+            "headphone": "",
+            "default": ["", "", ""]
+        },
+        
+		"on-click": "kitty sh -c \"pacmixer\"",
+		"tooltip": false
+    },
+	
+	"battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        
+		"format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-icons": ["", "", "", "", ""]
+    },
+
+    "clock": {
+    	"tooltip": false
+	}
+}

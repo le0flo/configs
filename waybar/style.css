@@ -1,0 +1,88 @@
+@define-color applet-fg #272727;
+
+* {
+	border: none;
+    border-radius: 7px;
+    font-family: FiraCode;
+    font-size: 15px;
+}
+
+window#waybar {
+	background: transparent;	
+}
+
+#custom-power {
+	padding-left: 10px;
+	padding-right: 15px;
+
+	font-size: 24px;
+
+	background: rgba(0,0,0,.5);
+	color: #56CBF9;
+}
+
+#workspaces {
+	background: transparent;
+}
+
+#workspaces button {
+    padding-left: 10px;
+	padding-right: 15px;
+    
+	background: transparent;
+    color: @applet-fg;
+}
+
+#workspaces button:hover {
+	box-shadow: inherit;
+	text-shadow: inherit;
+}
+
+#tray {
+	border: 3px solid @applet-fg;
+
+	padding-left: 10px;
+	padding-right: 10px;
+
+	background: rgba(0,0,0,.5);
+}
+
+#network {
+	border: 3px solid @applet-fg;
+
+	padding-left: 10px;
+	padding-right: 10px;
+
+	background: #cfbaf0;
+	color: @applet-fg;
+}
+
+#pulseaudio {
+	border: 3px solid @applet-fg;
+
+	padding-left: 15px;
+	padding-right: 20px;
+	
+	background: #f1c0e8;
+	color: @applet-fg;
+}
+
+#battery {
+	border: 3px solid @applet-fg;
+
+	padding-left: 15px;
+	padding-right: 20px;
+	
+	background: #ffcfd2;
+	color: @applet-fg;
+}
+
+#clock {
+	border: 3px solid @applet-fg;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	background: #fde4cf;
+	color: @applet-fg;
+}
