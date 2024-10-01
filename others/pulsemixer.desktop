@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+TryExec=pulsemixer
+Exec=pulsemixer
+Terminal=true
+Categories=System;Audio;
+
+Name=PulseMixer
+GenericName=Mixer
