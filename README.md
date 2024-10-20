@@ -1,3 +1,3 @@
 # Configurazioni
 
-In questa repository, mantengo tutte le varie configurazioni per il software che adopero quotidianamente.
+Quì trovi tutte le configurazioni del software che uso quotidianamente.
