@@ -1,3 +1,3 @@
 # Configurazioni
 
-Quì trovi tutte le configurazioni del software che uso quotidianamente.
+Tutte le configurazioni del software che uso quotidianamente.
